@@ -6,12 +6,13 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  padding: 20px;
 
   .hero {
     max-width: 200px;
   }
 
-  img{
+  img {
     border-radius: 50%;
     border: none;
   }
