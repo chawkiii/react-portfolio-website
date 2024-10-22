@@ -40,19 +40,23 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com" target="_blank">
+          <a href="https://x.com/chawki_achouri" target="_blank">
             <img src={twitterIcon} alt="twitter icon" />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/chawkiii" target="_blank">
             <img src={githubIcon} alt="github icon" />
           </a>
-          <a href="https://linkedin.com" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/achouriichawkii/"
+            target="_blank"
+          >
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          with a passion for developping modern web apps for commercial
-          businesses.
+          I'm a web developer focused on building clean and functional
+          solutions. Explore my projects, from front-end components to back-end
+          solutions, and check out my code on GitHub.
         </p>
         <a href="https://chawkii-cv.netlify.app/">
           <button className="hover">Resume</button>

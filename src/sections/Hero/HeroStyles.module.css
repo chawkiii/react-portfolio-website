@@ -6,6 +6,8 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  width: 80vw;
+  max-width: 1600px;
   padding: 20px;
 
   .hero {
@@ -61,6 +63,7 @@
 
 .colorModeContainer {
   position: relative;
+  top: 20px;
 }
 
 .colorMode {
@@ -74,7 +77,7 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 32ch;
   margin: 0 auto;
 }
 
