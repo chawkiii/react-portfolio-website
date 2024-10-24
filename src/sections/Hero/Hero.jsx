@@ -38,7 +38,7 @@ function Hero() {
           <br />
           Chawki
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Web Developer</h2>
         <span>
           <a href="https://x.com/chawki_achouri" target="_blank">
             <img src={twitterIcon} alt="twitter icon" />
@@ -58,7 +58,11 @@ function Hero() {
           solutions. Explore my projects, from front-end components to back-end
           solutions, and check out my code on GitHub.
         </p>
-        <a href="https://chawkii-cv.netlify.app/">
+        <a
+          href="https://chawkii-cv.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="hover">Resume</button>
         </a>
       </div>

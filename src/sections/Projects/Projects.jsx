@@ -1,8 +1,9 @@
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
+import hipsster from "../../assets/hipsster.jpg";
 import fitlift from "../../assets/fitlift.png";
+import snake from "../../assets/snake.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -36,6 +37,13 @@ function Projects() {
           link="https://github.com/chawkiii/Shi-Fu-Mi"
           h3="Shi Fu Mi"
           p="Experience the classic game of Rock, Paper, Scissors, reimagined with engaging visuals and smooth gameplay."
+        />
+
+        <ProjectCard
+          src={snake}
+          link="https://github.com/chawkiii/snake_python"
+          h3="Snake Game using Python"
+          p="Experience the classic game of Snake, reimagined with engaging visuals and smooth gameplay."
         />
       </div>
     </section>
