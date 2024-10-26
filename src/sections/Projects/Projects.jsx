@@ -4,6 +4,7 @@ import freshBurger from "../../assets/fresh-burger.png";
 import hipsster from "../../assets/hipsster.jpg";
 import fitlift from "../../assets/fitlift.png";
 import snake from "../../assets/snake.png";
+import calc from "../../assets/calc.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -44,6 +45,12 @@ function Projects() {
           link="https://github.com/chawkiii/snake_python"
           h3="Snake Game using Python"
           p="Experience the classic game of Snake, reimagined with engaging visuals and smooth gameplay."
+        />
+        <ProjectCard
+          src={calc}
+          link="https://chawkii-calculator.netlify.app/"
+          h3="Simple Calculator"
+          p="A functional calculator built using HTML, CSS, and JavaScript."
         />
       </div>
     </section>
